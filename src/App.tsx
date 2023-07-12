@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import { Counter } from "./components/Counter"
 import { Usuario } from "./components/Usuario"
 import { TimerPadre } from "./components/TimerPadre"
+import { CounterRed } from "./components/CounterRed"
 
 function App() {
   
@@ -21,6 +22,13 @@ function App() {
           <h5>useEffect - useRef</h5>
           <hr className="horizontal dark" />
           <TimerPadre />
+        </Col>
+      </Row>
+      <Row className="mt-4">
+        <Col>
+          <h5>useReducer</h5>
+          <hr className="horizontal dark" />
+          <CounterRed />
         </Col>
       </Row>
     </Container>
